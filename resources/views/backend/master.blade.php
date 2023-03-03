@@ -55,8 +55,8 @@
             <div class="main-menu">
                 <h5 class="sidenav-heading">MENU</h5>
                 <ul id="side-main-menu" class="side-menu list-unstyled">
-                    <li><a href="{{ url('/home') }}" style="text-shadow: 1px 1px 3px black"> <i class="icon-home"></i> Home </a></li>
-                    <li><a href="{{url('/users/lists')}}"><i class="fas fa-users"></i>Users </a></li>
+                    <li><a href="{{ url('/home') }}" style="text-shadow: 1px 1px 3px black"> <i class="icon-home"></i>Home</a></li>
+                    <li><a href="{{url('/my/todo/lists')}}" style="text-shadow: 1px 1px 3px black"><i class="fas fa-list"></i>My To Do Lists</a></li>
                 </ul>
             </div>
         </div>
