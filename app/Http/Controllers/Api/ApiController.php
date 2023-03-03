@@ -213,7 +213,7 @@ class ApiController extends Controller
     public function changeTaskStatus(Request $request){
         if ($request->header('Authorization') == ApiController::AUTHORIZATION_TOKEN) {
 
-            ToDo::where('slug', $request->slug)([
+            ToDo::where('slug', $request->slug)->update([
                 'status' => 1
             ]);
 
