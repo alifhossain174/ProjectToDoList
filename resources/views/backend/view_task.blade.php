@@ -8,7 +8,7 @@
                     <div class="card-header bg-info text-white">
                         <div class="row">
                             <div class="col-lg-12">
-                                <b style="text-shadow: 1px 1px 2px black;">Edit Your Task</b>
+                                <b style="text-shadow: 1px 1px 2px black;">View Your Task</b>
                             </div>
                         </div>
                     </div>
